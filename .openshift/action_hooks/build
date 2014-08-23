@@ -15,7 +15,11 @@ mkdir -p "$OPENSHIFT_DATA_DIR"bower_components
 ln -s "$OPENSHIFT_DATA_DIR"node_modules node_modules
 ln -s "$OPENSHIFT_DATA_DIR"bower_components client/bower_components
 
-npm install -q
+npm install --loglevel error
+
+# Prune some unecessary files from node_modules
+find node_modules/* -type f -iname "*.md" -o -type d -name "test*" -o -type d -name "example*" | xargs rm -rf
+
 bower install -q
 grunt build
 
