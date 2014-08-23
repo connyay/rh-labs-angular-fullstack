@@ -1,7 +1,13 @@
 #!/bin/bash
 
+# Change home directory (bower puts a lot of cache and tmp directories here)
 HOME=$OPENSHIFT_REPO_DIR
 cd $OPENSHIFT_REPO_DIR
+
+# add ruby gems to path (will not persist)
+export PATH=`gem environment gemdir`/bin:$PATH
+# install sass
+gem install sass --no-ri --no-rdoc
 
 mkdir -p "$OPENSHIFT_DATA_DIR"node_modules
 mkdir -p "$OPENSHIFT_DATA_DIR"bower_components
