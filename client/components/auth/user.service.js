@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('rhLabsFullstackApp')
+angular.module('rhLabsAngularFullstackApp')
   .factory('User', function ($resource) {
     return $resource('/api/users/:id/:controller', {
       id: '@_id'

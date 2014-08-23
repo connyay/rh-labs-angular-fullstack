@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('rhLabsFullstackApp')
+angular.module('rhLabsAngularFullstackApp')
   .controller('LoginCtrl', function ($scope, Auth, $location) {
     $scope.user = {};
     $scope.errors = {};

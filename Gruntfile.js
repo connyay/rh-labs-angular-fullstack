@@ -264,7 +264,7 @@ module.exports = function (grunt) {
         }
       }
     },
-    
+
     // Allow the use of non-minsafe AngularJS files. Automatically makes it
     // minsafe compatible so Uglify does not destroy the ng references
     ngAnnotate: {
@@ -282,7 +282,7 @@ module.exports = function (grunt) {
     ngtemplates: {
       options: {
         // This should be the name of your apps angular module
-        module: 'rhLabsFullstackApp',
+        module: 'rhLabsAngularFullstackApp',
         htmlmin: {
           collapseBooleanAttributes: true,
           collapseWhitespace: true,

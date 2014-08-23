@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('rhLabsFullstackApp')
+angular.module('rhLabsAngularFullstackApp')
   .controller('MainCtrl', function ($scope, $http, socket) {
     $scope.awesomeThings = [];
 

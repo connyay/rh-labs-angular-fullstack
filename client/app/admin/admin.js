@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('rhLabsFullstackApp')
+angular.module('rhLabsAngularFullstackApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('admin', {
