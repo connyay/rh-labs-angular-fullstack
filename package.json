@@ -44,7 +44,8 @@
     "grunt-env": "~0.4.1",
     "grunt-rev": "~0.1.0",
     "grunt-ng-annotate": "^0.2.3",
-    "grunt-angular-templates": "^0.5.4"
+    "grunt-angular-templates": "^0.5.4",
+    "jshint-stylish": "~0.1.5"
   },
   "devDependencies": {
     "grunt-contrib-watch": "~0.6.1",
@@ -57,7 +58,6 @@
     "grunt-express-server": "~0.4.17",
     "grunt-open": "~0.2.3",
     "open": "~0.0.4",
-    "jshint-stylish": "~0.1.5",
     "connect-livereload": "~0.4.0",
     "karma-ng-scenario": "~0.1.0",
     "karma-firefox-launcher": "~0.1.3",
