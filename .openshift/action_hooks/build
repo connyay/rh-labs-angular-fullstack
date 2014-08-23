@@ -23,7 +23,7 @@ find node_modules/* -type f -iname "*.md" -o -type d -name "test*" -o -type d -n
 bower install -q
 grunt build
 
-ls -1 | grep -E -v 'dist|node_modules|.tmp' | xargs rm -rf
+ls -1 | grep -E -v 'dist|node_modules' | xargs rm -rf
 mv dist/* .
 rm -rf dist
 
