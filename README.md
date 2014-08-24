@@ -2,7 +2,7 @@
 
 ## Usage
 
-***Heads up!***
+***Heads up!***  
 Check the available mongodb cartridge(s) with `rhc cartridge-list` and update the create-app command accordingly. It will probably be either mongodb-2.2 or mongodb-2.4
 
 ```bash
