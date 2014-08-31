@@ -4,8 +4,6 @@
 HOME=$OPENSHIFT_REPO_DIR
 cd $OPENSHIFT_REPO_DIR
 
-# add ruby gems to path (will not persist)
-export PATH=`gem environment gemdir`/bin:$PATH
 # install sass
 gem install sass --no-ri --no-rdoc
 
